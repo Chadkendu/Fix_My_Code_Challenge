@@ -1,17 +1,15 @@
+#include <string.h>
 #include <stdlib.h>
 #include "lists.h"
-#include <string.h>
 
 /**
- * add_dnodeint_end - Add node at the end of a list
+ * add_dnodeint_end - Add a node at the end of a list
  *
- * Description:
  * @head: The address of the pointer to the first element of the list
  * @n: The number to store in the new element
  *
- * Return: A pointer to new element
+ * Return: A pointer to the new element
  */
-
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
