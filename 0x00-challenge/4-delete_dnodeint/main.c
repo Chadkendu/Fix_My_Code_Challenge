@@ -1,10 +1,10 @@
-nclude <stdio.h>
-#include "lists.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
+#include "lists.h"
 
 /**
- * main - this checks code for Holberton School students.
+ * main - check the code for Holberton School students.
  *
  * Return: Always EXIT_SUCCESS.
  */
