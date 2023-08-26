@@ -1,15 +1,13 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
- * print_dlistint - this prints a doubly linkedlist of integers
+ * print_dlistint - Prints a doubly linkedlist of integers
  *
- * Description:
  * @h: A pointer to the first element of a list
  *
- * Return: number of element printed
+ * Return: The number of element printed
  */
-
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t n;
