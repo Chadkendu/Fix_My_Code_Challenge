@@ -1,14 +1,12 @@
-nclude <stdlib.h>
-#include "lists.h"
 #include <string.h>
+#include <stdlib.h>
+#include "lists.h"
 
 /**
  * free_dlistint - Free a list
  *
- * Description:
- * @head: pointer to first element of the list
+ * @head: A pointer to the first element of the list
  */
-
 void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *node;
